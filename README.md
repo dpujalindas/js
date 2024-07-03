@@ -66,6 +66,32 @@ Datatypes in js :-
         F       F       F
 
         logical Not(!)
+
+        Arrays on js :-
+         -array is acollection of items.
+         -ex.
+         let heros=["ironman","hulk","batman"];
+         let marks=[34,56,23,78,90];
+         let info=["rahul",34,"delhi"];
+
+         -array index starting from "0".
+         -arr[0],arr[1],arr[2]......
+
+         Looping over an array:-
+         -loops -> iterable
+         -syntax :-> for(let i=0,i<arr.length,i++){
+            //statement
+         }
+
+         question:-
+         1.for given array with marks of students ->[85,97,37,76,60].find the average marks of the entire class.
+         2. for a given  array with price of 5 items of 4 items >[250,645,300,900,50]
+
+         array method :-
+         -push
+
+
+
   
 
 
