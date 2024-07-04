@@ -90,6 +90,11 @@ Datatypes in js :-
          array method :-
          -push
 
+         Arrow function :-
+          -compact way of writting a function.
+          -syntax :-
+          const functionName =
+
 
 
   
