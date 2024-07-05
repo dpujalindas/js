@@ -93,7 +93,37 @@ Datatypes in js :-
          Arrow function :-
           -compact way of writting a function.
           -syntax :-
-          const functionName =
+          const functionName =(para 1,para2)=>{
+            //do some work
+          }
+          for each loop in arrays:-
+            -arr.forEach(callBackFunction)
+            -callbackFunction: here,it is a function to execute for each element in the array.
+            -A callback is a function passed s an argument to another function.
+
+        Syntax:-
+         arr.forEach((val)=>{
+            console.log(val)
+         })
+
+        Map methods:-
+         -create a new array with the results of some operation .the value its callback returns are used to form new array.
+         -arr.map(callbackFunction(value,index,array))
+         ex.
+         let newArr = arr.map((val)=>{
+            return val*2;
+         })
+
+        Filter method of array:-
+         -create a new array of element that gives true for a condition/filter.
+         eg. all even elements.
+
+         let newArr =arr.filter((val)=>{
+            return val%2==0;
+         })
+
+
+        
 
 
 
